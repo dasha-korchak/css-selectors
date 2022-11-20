@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Selectors</title>
+</head>
+<body>
+    <h1>Типи селекторів</h1>
+    <h2>Тег селектор</h2>
+    <p> На приклад, h1 - задасть властивості css всім елементам &lth1&gt на сторінці </p>
+    <h2>#id</h2>
+    <p id="red">#elem - задасть властивості css всім елементам з id="elem" на сторінці</p>
+    <h2>.class</h2>
+    <p class="yellow">.selector - задасть властивості css всім елементам class="selector" на сторінці</p>
+    <h2>.class1.class2</h2>
+    <p class="yellow blue">.card1.card2 - задасть властивості css всім елементам class="card1 card2" на сторінці</p>
+    <h2>.class1 .class2</h2>
+    <p class="red">.card1 .card2 - задасть властивості css всім елементам <span class="green">class="card2"</span>, які вкладені в елемент з "card1"</p> 
+    <h2>element, element</h2>
+    <p>div, p - задасть властивості css всім div та всім p на сторінці</p>
+    <h2>element element</h2>
+    <p><div> div p - задасть властивості <span>css</span> всім елементам <span>&ltp&gt</span>, що знаходяться всередині <span>&ltdiv&gt</span></div></p>
+    <h2>element>element</h2>
+    <p>div>p - задасть властивості <span>css</span> елементам <span>&ltp&gt</span>, що є прямими нащадками <span>&ltdiv&gt</span></p>
+    <div><h2>element+element</h2></div>
+    <p>div+p - задасть властивості css елементам &ltp&gt, що слідкують одразу за &ltdiv&gt</p>
+    <h2>element~element</h2>
+    <p>div~p - задасть властивості css всім елементам &ltp&gt, що знаходяться після &ltdiv&gt</p>
+</body>
+</html>
