@@ -1,0 +1,30 @@
+h1 {
+    color: darkslateblue;
+}
+#red{
+    color: red;
+}
+.yellow{
+    color: yellowgreen;
+}
+.yellow.blue{
+    color: blue;
+}
+.yellow .green{
+    color: rgb(19, 35, 60);
+}
+h2, p{
+    color: orange;
+}
+div span{
+    color: rgb(38, 194, 242);
+}
+p>span{
+    color:rgb(147, 7, 79);
+}
+div~p{
+    color: darkgreen;
+}
+div+p{
+    color: darkblue;
+}
